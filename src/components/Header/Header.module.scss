@@ -1,0 +1,60 @@
+@import "variables";
+
+.header {
+  max-width: 1228px;
+  margin: 0 auto;
+
+  .centralizar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .logo__img {
+      background-color: $dark-10;
+    }
+
+    .logo__text {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+
+  &__navigate {
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+
+    .nav__container {
+      display: flex;
+      gap: 3rem;
+
+      .navigate__link {
+        font-size: 1.125rem;
+        color: $dark-10;
+        text-decoration: none;
+      }
+    }
+
+    .button__container {
+      display: flex;
+      gap: 2rem;
+
+      .navigate__button {
+        padding: 0;
+        border: none;
+        background: none;
+
+        .button__img {
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+  }
+}

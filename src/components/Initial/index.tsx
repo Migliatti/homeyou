@@ -1,9 +1,11 @@
-function Initial() {
+import style from "./Initial.module.scss";
+
+const Initial = () => {
   return (
-    <div>
-      <p>Initial</p>
-    </div>
+    <section>
+      <h2>Agora vai</h2>
+    </section>
   );
-}
+};
 
 export default Initial;
