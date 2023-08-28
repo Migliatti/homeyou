@@ -10,17 +10,19 @@ const Header = () => {
       <div className={style.centralizar}>
         <div className={style.header__logo}>
           <img src={home} alt="logo da HOMEYOU" className={style.logo__img} />
-          <h1 className={style.logo__text}>HOMEYOU</h1>
+          <h1 className={style.logo__text}>
+            HOMEYOU
+          </h1>
         </div>
         <nav className={style.header__navigate}>
           <div className={style.nav__container}>
-            <a href="" className={style.navigate__link}>
+            <a href="#inicial" className={style.navigate__link}>
               Inicio
             </a>
-            <a href="" className={style.navigate__link}>
+            <a href="#gallery" className={style.navigate__link}>
               Galeria
             </a>
-            <a href="" className={style.navigate__link}>
+            <a href="#contact" className={style.navigate__link}>
               Contato
             </a>
           </div>

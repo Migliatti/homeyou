@@ -1,10 +1,14 @@
 @import "variables";
 
 .header {
-  max-width: 1228px;
-  margin: 0 auto;
+  background-color: $dark-40;
+  position: sticky;
+  top: 0;
+  width: 100%;
 
   .centralizar {
+    max-width: 1228px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
@@ -14,6 +18,11 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    &:hover > .logo__text {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 
     .logo__img {
       background-color: $dark-10;
@@ -38,6 +47,10 @@
         font-size: 1.125rem;
         color: $dark-10;
         text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 
@@ -53,6 +66,13 @@
         .button__img {
           height: 20px;
           width: 20px;
+          transition: 0.25s;
+
+          &:hover {
+            width: 22px;
+            height: 22px;
+            cursor: pointer;
+          }
         }
       }
     }

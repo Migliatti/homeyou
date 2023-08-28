@@ -1,0 +1,43 @@
+@import "variables";
+
+.footer {
+  max-width: 1228px;
+  padding: 5.62rem 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 4.31rem;
+
+  &__icon {
+    background-color: $dark-10;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  &__container {
+    display: flex;
+    gap: 7.31rem;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      &__title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        padding-bottom: 0.31rem;
+      }
+
+      &__item {
+        font-size: 1.125rem;
+        font-weight: 400;
+      }
+
+      &__item:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}

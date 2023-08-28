@@ -1,0 +1,68 @@
+@import "variables";
+
+.design_about {
+  background-color: $dark-40;
+
+  .centralizar {
+    height: 718px;
+    max-width: 1226px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 6.62rem;
+
+    .room {
+      width: 487px;
+      height: 457px;
+      object-fit: cover;
+      margin-left: 50px;
+      margin-top: 30px;
+      box-shadow: -50px -50px 0 $dark-10;
+      transition: 0.25s;
+      &:hover {
+        margin-left: 25px;
+        margin-right: 25px;
+        box-shadow: -25px -25px;
+        cursor: pointer;
+      }
+    }
+
+    .container {
+      &__info {
+        background-color: $dark-10;
+        color: $dark-40;
+        padding: 1.25rem 1.94rem 1.88rem;
+        margin-bottom: 1.5rem;
+
+        &__title {
+          font-size: 1.75rem;
+          padding-bottom: 1.25rem;
+          font-weight: 600;
+        }
+
+        &__text {
+          font-weight: 500;
+          line-height: 1.6rem;
+        }
+      }
+
+      &__about {
+        background-color: transparent;
+        border: none;
+        font-size: 1.125rem;
+        color: $dark-10;
+        font-family: $font;
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        &:active {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
