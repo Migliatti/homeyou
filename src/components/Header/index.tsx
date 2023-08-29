@@ -3,7 +3,7 @@ import home from "assets/icon/home.svg";
 import user from "assets/icon/user.svg";
 import heart from "assets/icon/heart.svg";
 import search from "assets/icon/search.svg";
-import HamburgerMenu from "./HamburgerMenu";
+import HamburgerMenu from "./hamburgerMenu";
 
 const Header = () => {
   return (
