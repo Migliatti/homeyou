@@ -1,4 +1,4 @@
-import style from "./initial.module.scss";
+import style from "./Initial.module.scss";
 import img from "assets/img/img1.png";
 
 const Initial = () => {
