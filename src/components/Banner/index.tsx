@@ -1,7 +1,7 @@
-import style from "./Initial.module.scss";
+import style from "./Banner.module.scss";
 import img from "assets/img/img1.png";
 
-const Initial = () => {
+const Banner = () => {
   return (
     <section className={style.principal} id="inicial">
       <div className={style.container}>
@@ -26,4 +26,4 @@ const Initial = () => {
   );
 };
 
-export default Initial;
+export default Banner;

@@ -1,15 +1,15 @@
 import AboutHouses from "components/AboutHouses";
-import Contact from "components/ContactWithUs";
-import Gallery from "components/GalleryHouses";
-import Initial from "components/Initial";
+import ContactWithUs from "components/ContactWithUs";
+import GalleryHouses from "components/GalleryHouses";
+import Banner from "components/Banner";
 
 const Home = () => {
   return (
     <main>
-      <Initial />
+      <Banner />
       <AboutHouses />
-      <Gallery />
-      <Contact />
+      <GalleryHouses />
+      <ContactWithUs />
     </main>
   );
 };
