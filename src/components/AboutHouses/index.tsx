@@ -1,7 +1,7 @@
 import img from "assets/img/img2.png";
 import style from "./About.module.scss";
 
-const About = () => {
+const AboutHouses = () => {
   return (
     <section className={style.design_about}>
       <div className={style.centralizar}>
@@ -26,4 +26,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutHouses;

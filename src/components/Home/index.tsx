@@ -1,13 +1,13 @@
-import About from "components/About";
 import Contact from "components/Contact";
 import Gallery from "components/Gallery";
 import Initial from "components/Initial";
+import AboutHouses from "components/AboutHouses";
 
 const Home = () => {
   return (
     <main>
       <Initial />
-      <About />
+      <AboutHouses />
       <Gallery />
       <Contact />
     </main>
