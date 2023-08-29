@@ -2,9 +2,9 @@ import img1 from "assets/img/img3.png";
 import img2 from "assets/img/img4.png";
 import img3 from "assets/img/img5.png";
 import classNames from "classnames";
-import style from "./Gallery.module.scss";
+import style from "./GalleryHouses.module.scss";
 
-const Gallery = () => {
+const GalleryHouses = () => {
   return (
     <section className={style.gallery} id="gallery">
       <div className={style.gallery__container}>
@@ -47,4 +47,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default GalleryHouses;

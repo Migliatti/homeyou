@@ -1,6 +1,6 @@
 import AboutHouses from "components/AboutHouses";
 import Contact from "components/ContactWithUs";
-import Gallery from "components/Gallery";
+import Gallery from "components/GalleryHouses";
 import Initial from "components/Initial";
 
 const Home = () => {
