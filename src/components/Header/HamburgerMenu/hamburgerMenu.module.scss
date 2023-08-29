@@ -4,6 +4,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: fixed;
+  right: 1.5rem;
+  top: 1.5rem;
 
   &__icon {
     display: flex;
@@ -49,15 +52,15 @@
     position: absolute;
     width: 30vw;
     padding: 0 2.2rem 0.7rem;
-    right: -100%;
-    top: 100%;
+    left: 260px;
+    top: 3rem;
     background-color: $dark-40;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     transition: 0.25s;
     z-index: -1; /* Garante que o menu flutue acima do conteúdo */
 
     &_open {
-      right: 0;
+      left: -30vw;
     }
 
     &__nav {

@@ -46,7 +46,42 @@
         &__last:hover {
           box-shadow: 10px 10px;
         }
+      }
+    }
+  }
+}
 
+@media screen and (max-width: 1023px) {
+  .gallery {
+    padding: 2.5rem 1.5rem;
+    &__container {
+      width: 100%;
+      gap: 2rem;
+
+      &__title {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+      }
+
+      &__text {
+        font-size: 0.875rem;
+        line-height: 140%;
+      }
+    }
+
+    &__list {
+      gap: 1.5rem;
+      flex-direction: column;
+
+      &__item {
+        width: 312px;
+        height: 350px;
+
+        &__img {
+          object-fit: cover;
+          width: 312px;
+          height: 350px;
+        }
       }
     }
   }

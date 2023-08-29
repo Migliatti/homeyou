@@ -66,3 +66,43 @@
     }
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .design_about {
+    padding: 2.5rem 1.5rem;
+
+    .centralizar {
+      height: auto;
+
+      .container__room {
+        display: none;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__info {
+          margin-bottom: 1rem;
+          padding: 1rem;
+
+          &__title {
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+          }
+
+          &__text {
+            font-size: 0.875rem;
+            font-weight: 500;
+            line-height: 140%;
+          }
+        }
+
+        &__about {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+}
