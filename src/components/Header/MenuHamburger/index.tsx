@@ -3,9 +3,9 @@ import user from "assets/icon/user.svg";
 import heart from "assets/icon/heart.svg";
 import search from "assets/icon/search.svg";
 import classNames from "classnames";
-import style from "./HamburgerMenu.module.scss";
+import style from "./MenuHamburger.module.scss";
 
-const HamburgerMenu = () => {
+const MenuHamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -82,4 +82,4 @@ const HamburgerMenu = () => {
   );
 };
 
-export default HamburgerMenu;
+export default MenuHamburger;
