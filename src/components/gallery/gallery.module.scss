@@ -38,6 +38,15 @@
         &:hover {
           box-shadow: 0 10px;
         }
+
+        &__first:hover {
+          box-shadow: -10px 10px;
+        }
+
+        &__last:hover {
+          box-shadow: 10px 10px;
+        }
+
       }
     }
   }

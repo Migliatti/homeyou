@@ -7,71 +7,107 @@
   width: 100%;
 
   .centralizar {
-    max-width: 1228px;
-    margin: 0 auto;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 1.5rem;
   }
 
   &__logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
-
-    &:hover > .logo__text {
-      text-decoration: underline;
-      cursor: pointer;
-    }
+    gap: 0.5rem;
 
     .logo__img {
       background-color: $dark-10;
+      width: 1.5rem;
+      height: 1.5rem;
     }
+  }
 
-    .logo__text {
-      font-size: 1.5rem;
-      font-weight: 600;
+  &__menu {
+    &__icon {
+      width: 1.75rem;
+      height: 1.75rem;
     }
   }
 
   &__navigate {
-    display: flex;
-    align-items: center;
-    gap: 3.5rem;
+    display: none;
+  }
+}
 
-    .nav__container {
+@media screen and (min-width: 1024px) {
+  .header {
+    .centralizar {
+      max-width: 1228px;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding: 30px 0;
+    }
+
+    &__logo {
       display: flex;
-      gap: 3rem;
+      align-items: center;
+      gap: 1rem;
 
-      .navigate__link {
-        font-size: 1.125rem;
-        color: $dark-10;
-        text-decoration: none;
+      &:hover > .logo__text {
+        text-decoration: underline;
+        cursor: pointer;
+      }
 
-        &:hover {
-          text-decoration: underline;
-        }
+      .logo__img {
+        background-color: $dark-10;
+      }
+
+      .logo__text {
+        font-size: 1.5rem;
+        font-weight: 600;
       }
     }
 
-    .button__container {
+    &__menu {
+      display: none;
+    }
+    &__navigate {
       display: flex;
-      gap: 2rem;
+      align-items: center;
+      gap: 3.5rem;
 
-      .navigate__button {
-        padding: 0;
-        border: none;
-        background: none;
+      .nav__container {
+        display: flex;
+        gap: 3rem;
 
-        .button__img {
-          height: 20px;
-          width: 20px;
-          transition: 0.25s;
+        .navigate__link {
+          font-size: 1.125rem;
+          color: $dark-10;
+          text-decoration: none;
 
           &:hover {
-            width: 22px;
-            height: 22px;
-            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .button__container {
+        display: flex;
+        gap: 2rem;
+
+        .navigate__button {
+          padding: 0;
+          border: none;
+          background: none;
+
+          .button__img {
+            height: 20px;
+            width: 20px;
+            transition: 0.25s;
+
+            &:hover {
+              width: 22px;
+              height: 22px;
+              cursor: pointer;
+            }
           }
         }
       }

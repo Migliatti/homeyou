@@ -3,6 +3,7 @@ import home from "assets/icon/home.svg";
 import user from "assets/icon/user.svg";
 import heart from "assets/icon/heart.svg";
 import search from "assets/icon/search.svg";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Header = () => {
   return (
@@ -10,9 +11,10 @@ const Header = () => {
       <div className={style.centralizar}>
         <div className={style.header__logo}>
           <img src={home} alt="logo da HOMEYOU" className={style.logo__img} />
-          <h1 className={style.logo__text}>
-            HOMEYOU
-          </h1>
+          <h1 className={style.logo__text}>HOMEYOU</h1>
+        </div>
+        <div className={style.header__menu}>
+          <HamburgerMenu />
         </div>
         <nav className={style.header__navigate}>
           <div className={style.nav__container}>

@@ -5,7 +5,7 @@ const Initial = () => {
   return (
     <section className={style.principal} id="inicial">
       <div className={style.container}>
-        <h2 className={style.container__title} >
+        <h2 className={style.container__title}>
           Ajudar você a encontrar o melhor conforto, é nossa prioridade.
         </h2>
         <p className={style.container__text}>

@@ -2,6 +2,7 @@ import style from "./gallery.module.scss";
 import img1 from "assets/img/img3.png";
 import img2 from "assets/img/img4.png";
 import img3 from "assets/img/img5.png";
+import classNames from "classnames";
 
 const Gallery = () => {
   return (
@@ -18,21 +19,27 @@ const Gallery = () => {
           <img
             src={img1}
             alt="Sala de estar"
-            className={style.gallery__list__item__img}
+            className={classNames(
+              style.gallery__list__item__img,
+              style.gallery__list__item__img__first
+            )}
           />
         </li>
         <li className={style.gallery__list__item}>
           <img
             src={img2}
             alt="Sala de lazer"
-            className={style.gallery__list__item__img}
+            className={classNames(style.gallery__list__item__img)}
           />
         </li>
         <li className={style.gallery__list__item}>
           <img
             src={img3}
             alt="Banheiro"
-            className={style.gallery__list__item__img}
+            className={classNames(
+              style.gallery__list__item__img,
+              style.gallery__list__item__img__last
+            )}
           />
         </li>
       </ul>
