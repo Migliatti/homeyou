@@ -1,8 +1,8 @@
-import style from "./gallery.module.scss";
 import img1 from "assets/img/img3.png";
 import img2 from "assets/img/img4.png";
 import img3 from "assets/img/img5.png";
 import classNames from "classnames";
+import style from "./Gallery.module.scss";
 
 const Gallery = () => {
   return (

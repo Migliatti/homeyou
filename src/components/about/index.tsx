@@ -1,5 +1,5 @@
 import img from "assets/img/img2.png";
-import style from "./about.module.scss";
+import style from "./About.module.scss";
 
 const About = () => {
   return (
