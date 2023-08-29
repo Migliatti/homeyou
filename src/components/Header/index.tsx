@@ -1,9 +1,9 @@
-import style from "./Header.module.scss";
 import home from "assets/icon/home.svg";
 import user from "assets/icon/user.svg";
 import heart from "assets/icon/heart.svg";
 import search from "assets/icon/search.svg";
-import HamburgerMenu from "./hamburgerMenu";
+import HamburgerMenu from "./HamburgerMenu";
+import style from "./Header.module.scss";
 
 const Header = () => {
   return (

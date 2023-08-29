@@ -3,7 +3,7 @@ import user from "assets/icon/user.svg";
 import heart from "assets/icon/heart.svg";
 import search from "assets/icon/search.svg";
 import classNames from "classnames";
-import style from "./hamburgerMenu.module.scss";
+import style from "./HamburgerMenu.module.scss";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
