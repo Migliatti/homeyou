@@ -1,5 +1,5 @@
 import AboutHouses from "components/AboutHouses";
-import Contact from "components/Contact";
+import Contact from "components/ContactWithUs";
 import Gallery from "components/Gallery";
 import Initial from "components/Initial";
 

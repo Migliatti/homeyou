@@ -1,6 +1,6 @@
-import style from "./Contact.module.scss";
+import style from "./ContactWithUs.module.scss";
 
-const Contact = () => {
+const ContactWithUs = () => {
   return (
     <section className={style.contact} id="contact">
       <h2 className={style.contact__title}>Orçamento</h2>
@@ -12,4 +12,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactWithUs;
